@@ -1,0 +1,88 @@
+﻿<Window x:Class="WpfApp2.Windows.MemberAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.Windows"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:vm="clr-namespace:WpfApp2.ViewModel"
+        mc:Ignorable="d"
+        Title="MemberAddWindow" Height="400" Width="300"
+        AllowsTransparency="True" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" Background="Transparent">
+
+    <Window.DataContext>
+        <vm:MemberAddWindowsViewModel />
+    </Window.DataContext>
+
+    <Border BorderThickness="1" BorderBrush="White" Background="#eff2f7" CornerRadius="10" MouseDown="Border_MouseDown">
+        <Grid>
+            <Grid.Resources>
+                <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+            </Grid.Resources>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <!--TextBoxes-->
+            <StackPanel>
+                <TextBlock Margin="20 5 0 0">№ РКФ</TextBlock>
+                <TextBox Text="{Binding Rkf}" Width="auto" Height="25" Margin="10" Style="{DynamicResource TextBoxStyle1}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="1">
+                <TextBlock Margin="20 5 0 0">Кличка</TextBlock>
+                <TextBox Text="{Binding Name}" Width="auto" Height="25" Margin="10" Style="{DynamicResource TextBoxStyle1}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2">
+                <TextBlock Margin="20 5 0 0">Владелец</TextBlock>
+                <ComboBox ItemsSource="{Binding Topics}" DisplayMemberPath="Title" Width="auto" Height="25" Margin="10" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="3">
+                <TextBlock Margin="20 5 0 0">Порода</TextBlock>
+                <TextBox Text="{Binding Breed}" Width="auto" Height="25" Margin="10" Style="{DynamicResource TextBoxStyle1}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="4">
+                <TextBlock Margin="20 5 0 0">Пол</TextBlock>
+                <TextBox Text="{Binding Gender}" Width="auto" Height="25" Margin="10" Style="{DynamicResource TextBoxStyle1}" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="5">
+                <TextBlock Margin="20 5 0 0">Возраст</TextBlock>
+                <TextBox Text="{Binding Age}" Width="auto" Height="25" Margin="10" Style="{DynamicResource TextBoxStyle1}" />
+            </StackPanel>
+
+            <!--Buttons-->
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Row="6" Grid.Column="1">
+
+                <Button Width="120" Margin="0 20 10 0" Style="{StaticResource addButton}"
+                    CommandParameter="{Binding Text, ElementName=elementTextBox}" IsDefault="True" Click="Accept_Click" >
+
+                    <StackPanel Orientation="Horizontal">
+                        <Icon:PackIconMaterial Kind="Check" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0" />
+                        <TextBlock Text="Добавить" />
+                    </StackPanel>
+                </Button>
+
+                <Button Width="120" Style="{StaticResource addButton}" IsCancel="True"
+                    CommandParameter="{Binding Text, ElementName=elementTextBox}">
+
+                    <StackPanel Orientation="Horizontal">
+                        <Icon:PackIconMaterial Kind="Close" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0" />
+                        <TextBlock Text="Отмена" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

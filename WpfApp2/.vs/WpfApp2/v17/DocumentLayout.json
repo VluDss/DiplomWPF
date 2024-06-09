@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|c:\\users\\tokin\\source\\repos\\wpfapp2\\wpfapp2\\viewmodel\\raceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\viewmodel\\raceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|c:\\users\\tokin\\source\\repos\\wpfapp2\\wpfapp2\\view\\raceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\view\\raceview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|c:\\users\\tokin\\source\\repos\\wpfapp2\\wpfapp2\\view\\referencebookview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\view\\referencebookview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|c:\\users\\tokin\\source\\repos\\wpfapp2\\wpfapp2\\viewmodel\\memberaddwindowsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\viewmodel\\memberaddwindowsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|c:\\users\\tokin\\source\\repos\\wpfapp2\\wpfapp2\\windows\\memberaddwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\windows\\memberaddwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|c:\\users\\tokin\\source\\repos\\wpfapp2\\wpfapp2\\viewmodel\\referencebookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB273E5-8E3D-4F2C-AA30-F8021BAD0556}|WpfApp2\\WpfApp2.csproj|solutionrelative:wpfapp2\\viewmodel\\referencebookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReferenceBookView.xaml",
+              "DocumentMoniker": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\View\\ReferenceBookView.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\View\\ReferenceBookView.xaml",
+              "ToolTip": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\View\\ReferenceBookView.xaml",
+              "RelativeToolTip": "WpfApp2\\View\\ReferenceBookView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-08T20:09:48.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RaceView.xaml",
+              "DocumentMoniker": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\View\\RaceView.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\View\\RaceView.xaml",
+              "ToolTip": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\View\\RaceView.xaml",
+              "RelativeToolTip": "WpfApp2\\View\\RaceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-08T19:00:28.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RaceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\ViewModel\\RaceViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\ViewModel\\RaceViewModel.cs",
+              "ToolTip": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\ViewModel\\RaceViewModel.cs",
+              "RelativeToolTip": "WpfApp2\\ViewModel\\RaceViewModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:51:39.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberAddWindowsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\ViewModel\\MemberAddWindowsViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\ViewModel\\MemberAddWindowsViewModel.cs",
+              "ToolTip": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\ViewModel\\MemberAddWindowsViewModel.cs",
+              "RelativeToolTip": "WpfApp2\\ViewModel\\MemberAddWindowsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:27:18.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberAddWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\Windows\\MemberAddWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp2\\Windows\\MemberAddWindow.xaml",
+              "ToolTip": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\Windows\\MemberAddWindow.xaml",
+              "RelativeToolTip": "WpfApp2\\Windows\\MemberAddWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-08T14:23:26.489Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2c0e173e-0a50-4b90-91d9-12e5592e9906",
+        "Display": 1,
+        "X": -107,
+        "Y": 321,
+        "Width": 1621,
+        "Height": 799,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReferenceBookViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\ViewModel\\ReferenceBookViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp2\\ViewModel\\ReferenceBookViewModel.cs",
+              "ToolTip": "C:\\Users\\tokin\\source\\repos\\WpfApp2\\WpfApp2\\ViewModel\\ReferenceBookViewModel.cs",
+              "RelativeToolTip": "WpfApp2\\ViewModel\\ReferenceBookViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T18:20:46.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
